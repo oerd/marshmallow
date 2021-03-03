@@ -249,7 +249,7 @@ Storing Errors on Specific Fields
 
 It is possible to report errors on fields and subfields using a `dict`.
 
-When multiple schema-leval validator return errors, the error structures are merged together in the :exc:`ValidationError <marshmallow.exceptions.ValidationError>` raised at the end of the validation.
+When multiple schema-level validators return errors, the error structures are merged together in the :exc:`ValidationError <marshmallow.exceptions.ValidationError>` raised at the end of the validation.
 
 .. code-block:: python
 
